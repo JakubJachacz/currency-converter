@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(34, 32, 32);
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    color: rgb(25, 202, 214);
+    font-size: 25px;
+}
+
+.form__field {
+    background-color: rgb(235, 223, 223);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.form__button {
+    color: rgb(31, 32, 32);
+    background-color: #eee;
+    color: rgb(26, 26, 177);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.form__result {
+    color: aqua;
+    text-align: center;
+    font-size: 25px;
+}

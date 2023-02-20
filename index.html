@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset>
+                <legend>Kalkulator walut</legend>
+                <p>
+                    <label>
+                        Waluta:
+                        <select class="form__field js-currency" name="currency">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Kwota: <input class="form__field js-amount" required type="number" min="0.01" step="any"> PLN
+                    </label>
+            </fieldset>
+
+        </form>
+    </div>
+    <div class="form__result">
+
+        <strong class="js-result">
+
+        </strong>
+    </div>
+</body>
+</html>

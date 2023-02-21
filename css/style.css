@@ -37,7 +37,7 @@ html {
 }
 
 .form__result {
-    color: aqua;
+    color: rgb(31, 223, 117);
     text-align: center;
     font-size: 25px;
 }

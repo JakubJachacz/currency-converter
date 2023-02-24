@@ -19,34 +19,31 @@
 </head>
 <body class="body">
     <div class="container">
-        <div class="element"> 
+      <div class="element"> 
         <form class="form js-form">
-            <fieldset>
-                <legend>Kalkulator walut</legend>
-                <p>
-                    <label>
-                        Waluta:
-                        <select class="form__field js-currency" name="currency">
-                            <option value="USD">USD</option>
-                            <option value="EUR">EUR</option>
-                        </select>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Kwota: <input class="form__field js-amount" required type="number" min="0.01" step="any"> PLN
-                    </label>
-            </fieldset>
-
+          <fieldset>
+            <legend>Kalkulator walut</legend>
+            <p>
+              <label>
+                Waluta:
+                <select class="form__field js-currency" name="currency">
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                </select>
+              </label>
+            </p>
+            <p>
+              <label>
+                Kwota: <input class="form__field js-amount" required type="number" min="0.01" step="any"> PLN
+              </label>
+            </p>
+          </fieldset>
         </form>
-
-    <div class="form__result">
-
-        <strong class="js-result">
-
-        </strong>
+        <button class="js-convert">Convert</button>
+        <div class="form__result">
+          <strong id="js-result"></strong>
+        </div>
+      </div>
     </div>
-</div>
-</div>
-</body>
+  </body>
 </html>

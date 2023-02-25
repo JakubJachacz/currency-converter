@@ -8,6 +8,10 @@ This is a simple currency calculator web app that allows you to convert PLN (Pol
 - BEM
 - Functions
 
-### Demo
+### Preview
 
-![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDliYmQ1Y2IyMjI1ZDg5ZDg4ODZmNjcwMzRiYzUxMzA2NTRiNThlZiZjdD1n/6cU2lmKaq6YHKJ77Bm/giphy.gif)
+![Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDliYmQ1Y2IyMjI1ZDg5ZDg4ODZmNjcwMzRiYzUxMzA2NTRiNThlZiZjdD1n/6cU2lmKaq6YHKJ77Bm/giphy.gif)
+
+#### Link
+
+https://jakubjachacz.github.io/currency-converter/
